@@ -1,7 +1,5 @@
-const SignInPage = ({ params }: { params: any }) => {
+const SignInPage = ({ params }: { params: { id: string } }) => {
   console.log(params);
-
   return <h1 className="text-7xl">SignInPage</h1>;
 };
-
 export default SignInPage;
